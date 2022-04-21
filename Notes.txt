@@ -1,0 +1,78 @@
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two
+applications to talk to each other. Each time you use an app like Facebook, send an instant message, or
+check the weather on your phone, you're using an API.
+
+
+https://www.postman.com/downloads/
+
+Postman is an application used for API testing. It is an HTTP client that tests HTTP requests, 
+utilizing a graphical user interface, through which we obtain different types of responses that need to be subsequently validated
+
+--------------------------------------------
+
+Flask is a web application framework written in Python. 
+Flask is a web framework, it’s a Python module that lets you develop web applications easily.
+
+A Web Application Framework or a simply a Web Framework represents a collection of libraries and modules 
+that enable web application developers to write applications without worrying about low-level details such
+as protocol, thread management, and so on.
+
+
+Sudo apt-get install virtualenv
+Sudo apt-get install python3.8-venv
+
+venv/bin/activate
+
+pip install Flask
+
+https://www.tutorialspoint.com/flask/flask_application.htm
+
+
+
+
+
+
+
+
+install from flask folder from cmd prompt
+-----------------------------------------------
+C:\Python\124\flask>python -m venv venv
+
+C:\Python\124\flask>venv\Scripts\activate.bat
+
+(venv) C:\Python\124\flask>pip install flask
+
+-------------------------------------------
+
+Notes:
+
+All APIs use an HTTP method. Let’s see what they are:
+
+The GET Method -
+GET is used to request data from a specified resource. When you access
+a website’s page, your browser makes a get request to your API and
+your API is returning the front-end that is displayed in the browser.
+
+All the APIs that you create in Flask,by default, use GET Request. If you
+start your hello_world server and go to localhost:5000, you can see in your
+terminal that the browser made a GET request on the server/API.
+
+
+
+The POST Method -
+POST is used to send data to the server to create/update a resource.
+A user wants to sign up from the signup page? A user wants to change
+their password? That would be a post request.
+
+
+The PUT Method -
+PUT is used to send data to a server to create / update a resource.
+The basic difference between PUT and POST is that a POST request is
+when you can create multiple copies of the same resource.
+
+A PUT request, on the other hand means that you want to create only
+one copy of the resource, i.e. Signing Up a unique user.
+
+
+The DELETE Method -
+DELETE is used to delete a resource.The default method used by flask is GET.
